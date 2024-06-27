@@ -1,3 +1,4 @@
+```
 # install other dependencies
 kubectl create namespace monitoring
 helm upgrade --install scalar-logging-loki grafana/loki-stack -n monitoring
@@ -39,3 +40,4 @@ helm upgrade --install scalar-manager scalar-labs/scalar-manager \
 
 # check pod after deployment
 kubectl get pod
+```
